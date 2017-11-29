@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>B2B 支付宝支付中间页</title>
+<link type="text/css" rel="stylesheet" href="css/B2B_commom.css">
+<link type="text/css" rel="stylesheet" href="css/pay_temp.css">
+</head>
+<body>
+	<div class="head_common_part1">
+    	<div class="_con">
+        	<a class="L" href="javascript:;">金正恩，您好，欢迎登录网络销售系统！　[退出系统]</a>
+            <a style="margin-right:10px;">当前积分为<span>3599</span>，账户余额为<span>￥12980</span></a>
+            <a href="javascript:;">您的专属销售经理为：任国忠【13910586768】</a>
+        </div>
+    </div>
+    <div class="head_common_part2">
+    	<div class="_con">
+        	<a class="_logo" href="javascript:;"><img src="img/B2B_logo_mj.png"></a>
+            <div class="_search">
+            	<form>
+                	<input type="text" id="search_head" class="search_head L" value="">
+                    <input type="submit" id="search_submit" class="search_submit btn_style1 L" value="搜 索">
+                </form>
+            </div>
+            <div class="_nav">
+                <a href="index.html" class="cur">首页</a>
+                <a href="country.html">泰国</a>
+                <a href="country.html">越南</a>
+                <a href="country.html">柬埔寨</a>
+            </div>
+        </div>
+    </div>
+    <div class="head_common_part3">
+    	<div class="_con">
+        	<i class="b2b_common_bg icon L"></i>
+        	<div class="news">
+            	<ul class="clearfix">
+                    <li class="stance">金正恩金正日上跑男，无数网友表示关注 5</li>
+                    <li class="cur">金正恩金正日上跑男，无数网友表示关注 1</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 2</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 3</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 4</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 浮层 -->
+    <div class="layer">
+    	<div class="layer_panel" layerID="pay_temp">
+        	<i><img src="img/loginning.gif" border="0" /></i>
+            <h1 class="reminder" id="popups-msg">正在跳转到支付宝付款，请您耐心等待！</h1>
+        </div><!-- layer_panel 结束 -->
+    	<div class="layer_bg"></div>
+    </div><!-- layer 结束 -->
+    
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/b2b_common.js"></script>
+    <script>
+        window.setTimeout(function(){
+            window.location.href="./pay_result.html"
+        },1500);
+    </script>
+</body>
+</html>

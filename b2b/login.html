@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>B2B 登录页面</title>
+<link type="text/css" rel="stylesheet" href="css/B2B_commom.css">
+<link type="text/css" rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="main">
+    	<i class="logo"><img src="img/B2B_logo_mj.png"></i>
+        <h1>爱嘉游旅游分销平台</h1>
+        <form action="">
+        	<div class="input_box">
+            	<i class="icon_user b2b_login_bg"></i>
+            	<input type="text" id="user" class="input_style1" value="" placeholder="邮箱/手机号">
+            </div>
+            <div class="input_box">
+            	<i class="icon_pwd b2b_login_bg"></i>
+            	<input type="text" id="pwd" class="input_style1" value="" placeholder="密 码">
+            </div>
+            <input type="submit" id="submit" class="btn_style1" value="登 录">
+        </form>
+        <div class="other">
+        	<a href="regedit.html">分销注册</a>
+            <a href="forgetpwd_1.html">忘记密码</a>
+        </div>
+        <div class="QR_code">
+			<a><img src="img/B2B_login_3.png"></a>
+            <a><img src="img/B2B_login_3.png"></a>
+        </div>
+    </div>
+    <div class="foot_clear_common">爱嘉游（北京）科技有限公司     2015-2016 美嘉旅游分销平台</div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script>
+        $('#submit').click(function(e){
+            e.preventDefault();
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
