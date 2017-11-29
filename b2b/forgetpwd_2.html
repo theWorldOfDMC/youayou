@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>B2B 忘记密码 - 输入注册邮箱</title>
+<link type="text/css" rel="stylesheet" href="css/B2B_commom.css">
+<link type="text/css" rel="stylesheet" href="css/forgetpwd_new.css">
+</head>
+<body class="forgetpwd_step2">
+	<div class="head">
+    	<div class="head_con">
+        	<a class="L" href="login.html">游啊游旅行网欢迎您，请登录</a>
+            <span>客服电话：400-888-0116</span>
+            <a href="javascript:;">在线客服</a>
+        </div>
+    </div>
+	<div class="main">
+    	<i class="logo"><img src="img/B2B_logo_mj.png"></i>
+        <h1>输入注册邮箱</h1>
+        <form action="">
+            <div class="input_box email_width">
+            	<input type="text" class="input_style1" value="" placeholder="注册邮箱">
+                <span>* 请输入注册时的邮箱号码</span>
+            </div>
+            <input type="submit" id="submit" class="btn_style1" value="下一步">
+        </form>
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script>
+        $('#submit').click(function(e){
+            e.preventDefault();
+            window.location.href = 'forgetpwd_2_2.html';
+        });
+    </script>
+</body>
+</html>
