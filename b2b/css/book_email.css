@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.main_common{min-height:624px; width:990px;}
+.main_border{width:100%;}
+.main_border .unsubscribe{width:841px;}
+.main_border .unsubscribe .con{width:100%;}
+.main_border .unsubscribe .con dt{height:32px; border-bottom:1px solid #e6e6e6;}
+.main_border .unsubscribe .con dd h6{height:45px; line-height:50px;}
+.main_border .unsubscribe .con dd li{height:30px; line-height:30px; margin-left:20px;}

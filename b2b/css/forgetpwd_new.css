@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* 忘记密码 公共样式 开始 */
+body{background:transparent url(../img/b2b_bg.jpg) no-repeat scroll center 0;}
+.b2b_bg{transparent url(../img/B2B_login_img.png) no-repeat scroll 0 0;}
+.main{width:500px; margin:150px auto 0; text-align:center;}
+h1{color:#FFF; margin:10px 0 60px;}
+.input_box{margin-bottom:10px; width:100%; height:40px; position:relative; text-align:left;}
+.input_style1{height:40px; line-height:40px; width:460px; display:block;}
+.btn_style1{width:170px; height:38px; line-height:36px; margin-top:34px; display:inline-block;}
+.head{width:100%; height:40px; line-height:40px; background:rgba(0,0,0,0.6) !important; filter:alpha(opacity=60); background:000;}
+.head *{position:relative; color:#FFF;}
+.head_con{width:1200px; margin:0 auto; text-align:right;}
+.head_con a{text-decoration:underline;}
+/* 忘记密码 公共样式 结束 */
+
+/* 忘记密码 第一步 开始 */
+.forgetpwd_step1 .verification_code *{display:inline-block; vertical-align:middle;}
+.forgetpwd_step1 .verification_code input{width:300px; margin-right:20px;}
+.forgetpwd_step1 .verification_code a{color:#FFF; text-decoration:underline;}
+/* 忘记密码 第一步 结束 */
+
+/* 忘记密码 第二步 开始 */
+.forgetpwd_step2 .email_width *{display:inline-block; vertical-align:middle;}
+.forgetpwd_step2 .email_width input{width:260px; margin-right:20px;}
+.forgetpwd_step2 .email_width span{color:#FFF;}
+/* 忘记密码 第二步 结束 */
+
+/* 忘记密码 第二步 - 2 开始 */
+.forgetpwd_step2_2 .main{width:550px;}
+.forgetpwd_step2_2 .con{text-align:left;}
+.forgetpwd_step2_2 .con > i{padding:0 0 0 40px; font-size:12px; color:#FFF;}
+.forgetpwd_step2_2 .con h1{font-size:24px; position:relative; margin:0; height:30px;}
+.forgetpwd_step2_2 .con h1 > *{vertical-align:middle;}
+.forgetpwd_step2_2 .con h1 i{width:26px; height:26px; display:inline-block; position:relative; top:-2px; margin-right:5px;}
+.forgetpwd_step2_2 .con h1 i.icon_ok{background-position:0 0;}
+.forgetpwd_step2_2 .con h1 i.icon_no{background-position:0 -36px;}
+/* 忘记密码 第二步 - 2 结束 */
+
+/* 忘记密码 第三步 开始 */
+.forgetpwd_step3 .pwd_width *{display:inline-block; vertical-align:middle;}
+.forgetpwd_step3 .pwd_width input{width:260px; margin-right:20px;}
+.forgetpwd_step3 .pwd_width span{color:#FFF;}
+/* 忘记密码 第三步 结束 */
+
+/* 忘记密码 第四步 开始 */
+.forgetpwd_step4_1 .main{width:430px;}
+.forgetpwd_step4_2 .main{width:650px;}
+.forgetpwd_step4 .con{text-align:left;}
+.forgetpwd_step4 .con > i{padding:0 0 0 40px; font-size:12px; color:#FFF;}
+.forgetpwd_step4 .con h1{font-size:24px; position:relative; margin:0; height:30px;}
+.forgetpwd_step4 .con h1 > *{vertical-align:middle;}
+.forgetpwd_step4 .con h1 i{width:26px; height:26px; display:inline-block; position:relative; top:-2px; margin-right:5px;}
+.forgetpwd_step4 .con h1 i.icon_ok{background-position:0 0;}
+.forgetpwd_step4 .con h1 i.icon_no{background-position:0 -36px;}
+/* 忘记密码 第四步 结束 */
