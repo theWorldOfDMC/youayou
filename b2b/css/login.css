@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* 首页样式 */
+body{background:transparent url(../img/b2b_bg.jpg) no-repeat scroll center 0;}
+.b2b_bg{transparent url(../img/B2B_login_img.png) no-repeat scroll 0 0;}
+.main{width:400px; margin:147px auto 0; text-align:center;}
+h1{color:#FFF; margin:10px 0 140px;}
+.input_box{margin-bottom:24px; width:100%; height:50px; position:relative;}
+.input_style1{height:50px; line-height:50px; width:360px;}
+.btn_style1{width:290px; height:50px; line-height:49px; font-size:18px; margin-top:34px;}
+.other{margin:40px 0 45px; text-align:left; padding:0 0 0 63px;}
+.other a{color:#FFF; margin-left:50px; text-decoration:underline;}
+.QR_code{text-align:left; padding:0 0 0 63px;}
+.QR_code a{margin-left:30px; background:#FFF; padding:5px; text-align:center; display:inline-block; width:78px; height:78px;}
+.b2b_login_bg{background:transparent url(../img/b2b_login_bg.png) no-repeat 0 0;}
+.icon_user{width:26px; height:25px; background-position:0 0; display:block; position:absolute; right:20px; top:12px;}
+.icon_pwd{width:22px; height:28px; background-position:0 -35px; display:block; position:absolute; right:23px; top:10px;}

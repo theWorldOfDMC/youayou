@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+/* 优惠券 */
+.main_border .coupon .con h1.coupon_option{font-weight:normal; cursor:pointer; color:#009788;}
+.main_border .coupon .con h1.coupon_option > *{vertical-align:middle;}
+.main_border .coupon ._open{background-position:0 -268px; display:inline-block; width:22px; height:22px; margin-right:10px;}
+.main_border .coupon ._close{background-position:0 -236px; display:inline-block; width:22px; height:22px; margin-right:10px;}
+.main_border .coupon .coupon_panel{padding:20px; border:1px dashed #e6e6e6; border-radius:2px;}
+.main_border .coupon .coupon_panel dt{height:24px; line-height:24px; margin-bottom:6px;}
+.main_border .coupon .coupon_panel .coupon_import input{width:500px; height:33px; line-height:33px;}
+.main_border .coupon .coupon_panel .coupon_import .userBtn{width:100px; height:35px; line-height:34px; margin-left:10px; border-radius:2px;}
+.main_border .coupon .coupon_panel .coupon_import .warnPanel{margin-top:6px; font-size:12px;}
+.main_border .coupon .coupon_panel .coupon_select{margin-top:20px;}
+.main_border .coupon .coupon_panel .coupon_select dt{height:35px; line-height:35px; border-bottom:1px solid #e6e6e6; padding-bottom:1px; margin-bottom:15px;}
+.main_border .coupon .coupon_panel .coupon_select dt a{display:inline-block; padding:0 20px; text-align:center; background:#FFF; position:relative;}
+.main_border .coupon .coupon_panel .coupon_select dt a.cur{border:1px solid #e6e6e6; border-bottom:none; top:1px;}
+.main_border .coupon .coupon_panel .coupon_select li{float:left; margin:0 20px 10px 0;}
+.main_border .coupon .coupon_panel .coupon_select li:last-child{margin:0 0 10px 0;}
+.main_border .coupon .coupon_panel .coupon_select dd a{display:block; width:195px; height:38px; padding:11px 115px 5px 50px; line-height:16px; background:#cdc380; color:#FFF; position:relative;}
+.main_border .coupon .coupon_panel .coupon_select .check_status{width:12px; height:12px; border-radius:50%; background:#FFF; position:absolute; left:13px; top:21px;}
+.main_border .coupon .coupon_panel .coupon_select .price{position:absolute; right:0; top:0; height:54px; width:110px; border-left:1px dashed #FFF; line-height:54px; text-align:center;}
+.main_border .coupon .coupon_panel .coupon_select .coupon_sideline{display:block; width:3px; height:54px; position:absolute; right:-3px; top:0; background-position:0 -300px;}

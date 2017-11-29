@@ -1,0 +1,4 @@
+@charset "utf-8";
+/* CSS Document */
+.layer .layer_panel[layerID=pay_temp]{padding:20px; height:35px; line-height:35px; text-align:center; width:500px;}
+.layer .layer_panel[layerID=pay_temp] > *{display:inline-block; vertical-align:middle; height:35px;}

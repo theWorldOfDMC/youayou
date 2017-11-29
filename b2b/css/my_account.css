@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border .part4 .con table{border:1px solid #e6e6e6;}
+.main_border .part4 .con table thead tr{background:#f7f7f7;}
+.main_border .part4 .con table tbody tr:not(:first-child) td{border-top:1px solid #e6e6e6;}
+.main_border .part4 .btn_panel{margin-top:20px; border-top:1px solid #e6e6e6; padding:10px 0 0; text-decoration:underline;}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border .part2 .con .option > ul > li{width:10px; height:28px; line-height:28px; float:left; margin-right:15px;}
+.main_border .part2 .con .option > ul > li:nth-child(even){width:30px;}
+.main_border .part2 .con .inputPanel dl{margin-bottom:12px;}
+.main_border .part2 .con .inputPanel dl dt{width:115px; margin-right:13px; text-align:right;}
+.main_border .part2 .con .inputPanel dl > *{height:30px; line-height:30px;}
+.main_border .part2 .con .inputPanel dl dd > ul > li{width:10px; height:28px; line-height:28px; float:left; margin-right:15px;}
+
+.main_border .part2 .con .other_panel i{font-size:12px; display:block; height:40px; line-height:38px; border-top:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6;}
+.main_border .part2 .con .other_panel a{width:90px; height:28px; line-height:26px; display:block; margin-top:10px; border-radius:2px; border:1px solid #bebebe;}
+
+.main_border .part3 .con .panel{padding:20px; border:1px solid #e6e6e6;}
+.main_border .part3 .con .panel ul li{float:left; height:24px; line-height:24px; margin:0 25px 3px 0;}
+.main_border .part3 .con .panel ul li > *{display:inline-block; vertical-align:middle;}
+.main_border .part3 .con .panel ul li input{margin-right:5px;}
+.main_border .part3 .con table.tourist_info td > *{display:inline-block; vertical-align:middle;}
+
+.main_border .part3 .con .tourist_cell_panel{padding:10px; border:1px dashed #e6e6e6; margin-top:10px;}
+.main_border .part3 .con .tourist_cell_panel:first-child{margin-top:0;}
+.main_border .part3 .con .tourist_cell_panel .select_panel{margin-right:10px; width:150px; height:28px; position:relative; text-align:left; border:1px solid #e6e6e6;}
+
+.main_border .part3 .con .other_panel{border-top:1px solid #e6e6e6; padding:15px 0 0;}
+.main_border .part3 .con .other_panel *{display:inline-block; vertical-align:middle; color:#999; font-size:12px;}
+.main_border .part3 .con .other_panel > *{margin-right:30px;}
+
+.main_border .part4 .con table{border:1px solid #e6e6e6;}
+.main_border .part4 .con table thead tr{background:#f7f7f7;}
+.main_border .part4 .con table tbody tr:not(:first-child) td{border-top:1px solid #e6e6e6;}

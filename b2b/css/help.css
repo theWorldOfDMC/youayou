@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.help_main{width:1200px; margin:0 auto; position:relative;}
+.help_main .headline{font-size:24px; line-height:100px; height:100px; border-bottom:1px dotted #e6e6e6; text-align:center;}
+.help_main .model{margin-top:55px;}
+.help_main .model ol{padding-left:45px;}
+.help_main .model ol li{list-style:decimal-leading-zero; height:30px; line-height:30px; text-indent:10px;}
+.help_main .menu{position:absolute; left:-28px; top:0; width:230px;}
+.help_main .menu dl{text-align:center; width:100%;}
+.help_main .menu dt{height:100px; line-height:100px; font-size:16px; font-weight:800;}
+.help_main .menu dd a{display:block; height:45px; line-height:45px; font-size:14px;}
+.help_main .menu dd a.cur{box-shadow:-1px 0 5px 0 rgba(0,0,0,0.05); background:#FFF;}
+.help_main .panel{width:900px; margin-left:200px; min-height:800px; padding:0 50px 50px; background:#FFF; border:1px solid #e6e6e6; border-radius:2px;}
+.help_main .model h2{color:#333; font-size:20px; height:24px; line-height:24px; margin-bottom:30px;}
+.help_main .model p{color:#777; font-size:14px; line-height:180%;}

@@ -1,0 +1,6 @@
+.pagination{font-size:14px; margin-top:10px;}
+.pagination a{text-decoration:none; border:solid 1px #d5d5d5; color:#757575; background:#FFF;}
+.pagination a:hover{background:#009788; color:#FFF; border-color:#009788;}
+.pagination a, .pagination span{display:block; float:left; height:28px; line-height:28px; padding:0 11px; margin-left:5px;}
+.pagination .current{background:#009788; color:#fff; border:solid 1px #009788;}
+.pagination .current.prev, .pagination .current.next{color:#757575; border-color:#d5d5d5; background:#fff;}

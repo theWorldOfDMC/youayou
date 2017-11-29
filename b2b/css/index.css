@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 第一部分 开始 */
+.main_border{padding:0;}
+.index_part1 h2{padding:0 20px; font-size:12px; height:36px; line-height:36px; color:#999; border-bottom:1px solid #e6e6e6;}
+.index_part1 .img_panel{overflow:hidden; padding:20px;}
+.index_part1 .img_panel ul{width:928px; margin-left:-8px;}
+.index_part1 .img_panel ul li{float:left; margin:0 0 8px 8px;}
+.index_part1 .img_panel ul li a{display:block; position:relative; width:224px; height:144px; overflow:hidden; color:#FFF; border-radius:2px;}
+.index_part1 .img_panel ul li a .img_info_layer_1{position:absolute; background:rgba(0,0,0,0.7) !important; background:#000; filter:alpha(opacity=70); padding:0 70px 0 0; height:40px; bottom:0; left:0; display:block;}
+.index_part1 .img_panel ul li a .img_info_layer_1 *{position:relative; display:inline-block;}
+.index_part1 .img_panel ul li a .img_info_layer_1 ._tit{font-size:12px; line-height:13px; height:26px; margin:7px; overflow:hidden;}
+.index_part1 .img_panel ul li a .img_info_layer_1 ._price{position:absolute; right:8px; top:10px; font-size:16px; font-weight:800;}
+.index_part1 .img_panel ul li a .img_info_layer_2{position:absolute; background:rgba(0,0,0,0.7) !important; background:#000; filter:alpha(opacity=70); top:0; left:0; height:98px; width:184px; padding:23px 20px; display:none;}
+.index_part1 .img_panel ul li a .img_info_layer_2 *{position:relative; display:block; text-align:center;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._tit{line-height:16px; margin-bottom:10px;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._price{font-size:16px; font-weight:800; margin-bottom:10px;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._btn{width:98px; height:30px; line-height:26px; margin:0 auto; border-radius:2px;}
+.index_part1 .img_panel ul li a:hover .img_info_layer_1{display:none;}
+.index_part1 .img_panel ul li a:hover .img_info_layer_2{display:block;}
+
+.index_part1 .pagination{height:42px; padding:6px 0 0; background:#e9e9e9;}
+.index_part1 .pagination_panel{background:#f5f5f5; height:42px;}
+.index_part1 .pagination_panel a{float:left; height:42px; line-height:37px; font-size:12px; color:#4b4b4b; text-align:center; width:42px; border:1px solid #e6e6e6; border-top:none 0; border-left:none 0;}
+.index_part1 .pagination_panel a.prev,.index_part1 .pagination_panel a.next{width:90px;}
+.index_part1 .pagination_panel a.prev{border-left:none;}
+.index_part1 .pagination_panel a.next{border-right:none; border-left:1px solid #e6e6e6; float:right;}
+.index_part1 .pagination_panel a:not(.prev):not(.next):hover,.index_part1 .pagination_panel a.cur{position:relative; top:-6px; height:48px; background:#FFF; line-height:49px; color:#009788;}
+/* 第一部分 结束 */
+
+/* 第二部分 开始 */
+.index_part2 .product_model{width:473px; border:1px solid #e6e6e6; border-radius:2px; background:#FFF;}
+.index_part2 .product_model h1{position:relative; border-bottom:none 0;}
+.index_part2 .product_model h1 a{position:absolute; right:15px; top:10px; font-size:12px; top:1px;}
+.index_part2 .product_model hr{margin:0 15px;}
+.index_part2 .product_model .product_model_con{padding:10px 15px;}
+.index_part2 .product_model .product_model_con .cell{width:105px; padding:5px 0 5px 111px; position:relative; height:70px;}
+.index_part2 .product_model .product_model_con .cell img{display:block; position:absolute; left:0; top:0; width:102px; height:80px;}
+.index_part2 .product_model .product_model_con .cell p{font-size:12px; line-height:18px; overflow:hidden; height:54px;}
+.index_part2 .product_model .product_model_con .cell b{color:#e11313;}
+.index_part2 .product_model .product_model_con dl{height:22px; line-height:22px; font-size:12px;}
+.index_part2 .product_model .product_model_con dl dt{width:345px; height:100%; overflow:hidden;}
+/* 第二部分 结束 */
+
+/* 第三部分 开始 */
+.index_part3{margin-top:10px;}
+.index_part3 .part3_cell{padding:20px 20px 20px 270px; position:relative; height:167px;}
+.index_part3 .part3_cell img{display:block; position:absolute; left:20px; top:20px; width:234px; height:167px;}
+.index_part3 .part3_cell .part3_cell_panel a{position:relative; display:block; color:#4d4d4d; font-size:12px;}
+.index_part3 .part3_cell .part3_cell_panel a dl{height:34px; line-height:31px;}
+.index_part3 .part3_cell .part3_cell_panel a dl >*{height:100%;}
+.index_part3 .part3_cell .part3_cell_panel a dt{width:450px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.index_part3 .part3_cell .part3_cell_panel a dd{margin-right:120px;}
+.index_part3 .part3_cell .part3_cell_panel a .part3_cell_btn{position:absolute; right:0; top:2px; width:85px; height:24px; line-height:22px; text-align:center; background-image:-moz-linear-gradient(bottom,#e8e8e8,#f9f9f9); border:1px solid #bebebe; border-radius:2px;}
+.index_part3 .part3_menu{position:absolute; top:15px; right:0; text-indent:0;}
+.index_part3 .part3_menu a{width:80px; height:30px; line-height:30px; text-align:center; border:1px solid #e6e6e6; border-top-left-radius:2px; border-top-right-radius:2px; display:block; float:left; margin-right:5px; font-size:12px;}
+.index_part3 .part3_menu a:hover,.index_part3 .part3_menu a.cur{background:#009788; height:32px; line-height:32px; border-width:0; color:#FFF; width:82px;}
+/* 第三部分 结束 */

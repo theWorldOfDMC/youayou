@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border{margin-bottom:10px;}
+.main_border .part .con h1{height:30px; line-height:30px; color:#333; font-weight:normal; margin-bottom:0; font-size:16px;}
+.main_border .part .con h2{height:20px; line-height:20px; color:#666;}
+.main_border .part .con h3{margin-top:15px; font-size:22px; color:#e11313;}
+.pay-weixin .part .con{background:transparent url(../img/weixin_pay_qrcode.png) no-repeat 400px -20px;}

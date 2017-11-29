@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.reservation_hotel .main_border .part2 .con .option.titLi > ul > li:nth-child(odd){width:90px;}
+.reservation_hotel .main_border .part2 .con .option > ul > li:nth-child(odd){width:160px;}
+.reservation_hotel .main_border .part2 .con .option > ul > li:nth-child(even){width:auto;}
+
+.main_border .part2 .con .option > ul > li{height:28px; line-height:28px; float:left; margin-right:15px;}
+.main_border .part2 .con .option > ul > li:nth-child(even){width:30px;}
+.main_border .part2 .con .inputPanel dl{margin-bottom:12px;}
+.main_border .part2 .con .inputPanel dl dt{width:115px; margin-right:13px; text-align:right;}
+.main_border .part2 .con .inputPanel dl > *{height:30px; line-height:30px;}
+.main_border .part2 .con .inputPanel dl .EN_name{width:600px;}
+.main_border .part2 .con .inputPanel dl .EN_address{width:655px;}
+.main_border .part2 .con .inputPanel dl .hotel_tel{width:350px;}
+.main_border .part2 .con .inputPanel dl dd > ul > li{height:28px; line-height:28px; float:left; margin-right:15px;}
+
+.main_border .part3 .con .panel{padding:20px; border:1px solid #e6e6e6;}
+.main_border .part3 .con .panel ul li{float:left; height:24px; line-height:24px; margin:0 25px 3px 0;}
+.main_border .part3 .con .panel ul li *{display:inline-block; vertical-align:middle;}
+.main_border .part3 .con .panel ul li input{margin-right:5px;}
+.main_border .part3 .con table.tourist_info td > *{display:inline-block; vertical-align:middle; margin-left:10px;}
+.main_border .part3 .con table.tourist_info td input[type=text]{margin:0 10px; width:240px;}
+.main_border .part3 .con table.tourist_info td textarea{width:470px; margin:0 10px; max-width:470px; min-width:470px; height:90px; min-height:90px; max-height:90px;}
+
+.main_border .part3 .con .tourist_cell_panel{padding:10px; border:1px dashed #e6e6e6; margin-top:10px;}
+.main_border .part3 .con .tourist_cell_panel:first-child{margin-top:0;}
+.main_border .part3 .con .tourist_cell_panel .select_panel{margin-right:10px; width:150px; height:28px; position:relative; text-align:left; border:1px solid #e6e6e6;}
+
+.layer .layer_panel[layerID=confirm_panel] .con{padding:15px;}
+.layer .layer_panel[layerID=confirm_panel] .con .info{height:30px; line-height:30px; text-align:center;}
+
+/* 个人支付 复选框 */
+.main_border .con.option_common .btn_panel label{display:inline-block; margin-left:10px; vertical-align:middle;}
+.main_border .con.option_common .btn_panel label > *{display:inline-block; vertical-align:middle; margin-right:5px;}
+.main_border .con.option_common .btn_panel label input{position:relative; top:1px;}
+
+/* 优惠券 */
+.main_border .coupon .con h1.coupon_option{font-weight:normal; cursor:pointer; color:#009788;}
+.main_border .coupon .con h1.coupon_option > *{vertical-align:middle;}
+.main_border .coupon ._open{background-position:0 -268px; display:inline-block; width:22px; height:22px; margin-right:10px;}
+.main_border .coupon ._close{background-position:0 -236px; display:inline-block; width:22px; height:22px; margin-right:10px;}
+.main_border .coupon .coupon_panel{padding:20px; border:1px dashed #e6e6e6; border-radius:2px;}
+.main_border .coupon .coupon_panel dt{height:24px; line-height:24px; margin-bottom:6px;}
+.main_border .coupon .coupon_panel .coupon_import input{width:500px; height:33px; line-height:33px;}
+.main_border .coupon .coupon_panel .coupon_import .userBtn{width:100px; height:35px; line-height:34px; margin-left:10px; border-radius:2px;}
+.main_border .coupon .coupon_panel .coupon_import .warnPanel{margin-top:6px; font-size:12px;}
+.main_border .coupon .coupon_panel .coupon_select{margin-top:20px;}
+.main_border .coupon .coupon_panel .coupon_select li{float:left; margin:0 20px 10px 0;}
+.main_border .coupon .coupon_panel .coupon_select li:last-child{margin:0 0 10px 0;}
+.main_border .coupon .coupon_panel .coupon_select a{display:block; width:195px; height:38px; padding:11px 115px 5px 50px; line-height:16px; background:#cdc380; color:#FFF; position:relative;}
+.main_border .coupon .coupon_panel .coupon_select .check_status{width:12px; height:12px; border-radius:50%; background:#FFF; position:absolute; left:13px; top:21px;}
+.main_border .coupon .coupon_panel .coupon_select li.cur .check_status:before{content:''; position:absolute; width:8px; height:8px; top:2px; left:2px; background:#9a8709; display:block; border-radius:50%;}
+.main_border .coupon .coupon_panel .coupon_select .price{position:absolute; right:0; top:0; height:54px; width:110px; border-left:1px dashed #FFF; line-height:54px; text-align:center;}
+.main_border .coupon .coupon_panel .coupon_select .coupon_sideline{display:block; width:3px; height:54px; position:absolute; right:-3px; top:0; background-position:0 -300px;}

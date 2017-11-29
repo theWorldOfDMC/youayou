@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border .part3 .con .panel{padding:20px; border:1px solid #e6e6e6;}
+.main_border .part3 .con .panel ul li{float:left; height:24px; line-height:24px; margin:0 25px 3px 0;}
+.main_border .part3 .con .panel ul li > *{display:inline-block; vertical-align:middle;}
+.main_border .part3 .con .panel ul li input{margin-right:5px;}
+.main_border .part3 .con table.tourist_info td > *{display:inline-block; vertical-align:middle;}
+.main_border .part3 .con table.tourist_info td a{text-decoration:underline;}
+.main_border .part3 .con table.tourist_info td input[type=text]{margin:0 10px; width:240px;}
+.main_border .part3 .con table.tourist_info td textarea{width:470px; margin:0 10px; max-width:470px; min-width:470px; height:90px; min-height:90px; max-height:90px;}
+.main_border .part3 .con > i{padding:0 0 0 50px; font-size:12px;}
+.main_border .part3 .con > ul{padding:0 0 0 50px;}
+.main_border .part3 .con > ul li{float:left; margin-right:70px;}
+.main_border .part3 .con h1{font-size:24px; position:relative; margin:0; padding:0 0 0 50px; height:30px;}
+.main_border .part3 .con h1.icon_ok{color:#118547;}
+.main_border .part3 .con h1.icon_no{color:#ff503f;}
+.main_border .part3 .con h1 i{width:26px; height:26px; position:absolute; left:0; top:-2px;}
+.main_border .part3 .con h1.icon_ok i{background-position:0 0;}
+.main_border .part3 .con h1.icon_no i{background-position:0 -36px;}
+
+.index_part1{margin-top:10px;}
+.index_part1 .img_panel{overflow:hidden; padding:20px;}
+.index_part1 .img_panel ul{width:928px; margin-left:-8px;}
+.index_part1 .img_panel ul li{float:left; margin:0 0 8px 8px;}
+.index_part1 .img_panel ul li a{display:block; position:relative; width:224px; height:144px; overflow:hidden; color:#FFF; border-radius:2px;}
+.index_part1 .img_panel ul li a .img_info_layer_1{position:absolute; background:rgba(0,0,0,0.7) !important; background:#000; filter:alpha(opacity=70); padding:0 70px 0 0; height:40px; bottom:0; left:0; display:block;}
+.index_part1 .img_panel ul li a .img_info_layer_1 *{position:relative; display:inline-block;}
+.index_part1 .img_panel ul li a .img_info_layer_1 ._tit{font-size:12px; line-height:13px; height:26px; margin:7px; overflow:hidden;}
+.index_part1 .img_panel ul li a .img_info_layer_1 ._price{position:absolute; right:8px; top:10px; font-size:16px; font-weight:800;}
+.index_part1 .img_panel ul li a .img_info_layer_2{position:absolute; background:rgba(0,0,0,0.7) !important; background:#000; filter:alpha(opacity=70); top:0; left:0; height:98px; width:184px; padding:23px 20px; display:none;}
+.index_part1 .img_panel ul li a .img_info_layer_2 *{position:relative; display:block; text-align:center;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._tit{line-height:16px; margin-bottom:10px;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._price{font-size:16px; font-weight:800; margin-bottom:10px;}
+.index_part1 .img_panel ul li a .img_info_layer_2 ._btn{width:98px; height:30px; line-height:26px; margin:0 auto; border-radius:2px;}
+.index_part1 .img_panel ul li a:hover .img_info_layer_1{display:none;}
+.index_part1 .img_panel ul li a:hover .img_info_layer_2{display:block;}
+
+.main_title a{position:absolute; right:20px; top:0; font-size:12px;}

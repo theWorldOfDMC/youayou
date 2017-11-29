@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border .part1 table p{line-height:20px; margin-top:3px;}
+.main_border .part2 .con p{font-size:12px;}
+.main_border .part2 .con .option > ul > li{width:10px; height:28px; line-height:28px; float:left; margin-right:15px;}
+.main_border .part2 .con .option > ul > li:nth-child(even){width:30px;}
+.main_border .part2 .con .inputPanel dl{margin-bottom:12px;}
+.main_border .part2 .con .inputPanel dl dt{width:115px; margin-right:13px; text-align:right;}
+.main_border .part2 .con .inputPanel dl > *{height:30px; line-height:30px;}
+.main_border .part2 .con .inputPanel dl .EN_name{width:600px;}
+.main_border .part2 .con .inputPanel dl .EN_address{width:655px;}
+.main_border .part2 .con .inputPanel dl .hotel_tel{width:350px;}
+
+.main_border .part3 .con table{border:1px solid #e6e6e6;}
+.main_border .part3 .con table thead tr{background:#f7f7f7;}
+
+.main_border .part3 .con .other_panel{border-top:1px solid #e6e6e6; padding:15px 0 0;}
+.main_border .part3 .con .other_panel *{display:inline-block; vertical-align:middle; color:#999; font-size:12px;}
+.main_border .part3 .con .other_panel > *{margin-right:30px;}
+
+.main_border .part4 .con .img_box{padding:4px; border:1px solid #e6e6e6; border-radius:2px; display:block;}
+.main_border .part4 .con .img_box img{display:block;}

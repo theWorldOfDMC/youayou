@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{width:100%; height:300px; overflow:hidden; position:relative;}
+#banner_img{ display:block; position:relative;}
+#banner_img li{ position:absolute; top:0; left:0; width:100%; background-position:center; background-size:cover;display:none;}
+#banner_img li.item1{ background-image:url(../img/yay_banner_01.jpg); display:block;}
+#banner_img li.item2{ background-image:url(../img/yay_banner_02.jpg);}
+#banner_img li.item3{ background-image:url(../img/yay_banner_01.jpg);}
+#banner_img li.item4{ background-image:url(../img/yay_banner_02.jpg);}
+#banner_ctr{position:absolute; z-index:1; bottom:15px;}
+#banner_ctr ul{width:100%;}
+#banner_ctr li.styclsa{background:#FFF; height:10px; width:10px; float:left; display:inline-block; cursor:pointer; margin-left:10px; border-radius:50%;}
+#banner_ctr li.styclsa:hover{background:#15d1bd;}
+#banner_ctr li.styclsa:first-child{margin:0;}
+#drag_ctr{position:absolute; width:10px; height:10px; z-index:1; background:#15d1bd; border-radius:50%;}
+.wrapper{width:960px; margin:0 auto; position:relative; height:300px;}
+.prevNav{position:absolute; cursor:pointer; left:50px; width:80px; height:300px; float:left; display:inline-block !important; z-index:9990; background:url(../img/banner-arrows.png) no-repeat 0px 140px; opacity:1; filter:alpha(opacity=100);}
+.nextNav{position:absolute; cursor:pointer; right:50px; width:80px; height:300px; float:right; display:inline-block !important; z-index:9990; background:url(../img/banner-arrows.png) no-repeat -170px 140px; opacity:1; filter:alpha(opacity=100);}

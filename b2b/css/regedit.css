@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* 首页样式 */
+body{background:transparent url(../img/b2b_bg.jpg) no-repeat scroll center 0;}
+.b2b_bg{transparent url(../img/B2B_login_img.png) no-repeat scroll 0 0;}
+.main{width:500px; margin:50px auto 0; text-align:center;}
+h1{color:#FFF; margin:10px 0 60px;}
+.input_box{margin-bottom:10px; width:100%; height:40px; position:relative; text-align:left;}
+.input_checkbox{width:100%; height:24px; text-align:left; color:#FFF;}
+.input_style1{height:40px; line-height:40px; width:460px; display:block;}
+.btn_style1{width:290px; height:50px; line-height:49px; font-size:18px; margin-top:34px;}
+.head{width:100%; height:40px; line-height:40px; background:rgba(0,0,0,0.6) !important; filter:alpha(opacity=60); background:000;}
+.head *{position:relative; color:#FFF;}
+.head_con{width:1200px; margin:0 auto; text-align:right;}
+.head_con a{text-decoration:underline;}
+
+.company_name{width:380px;}
+.company_type,.company_province,.company_city{width:174px;}
+.company_business_license{width:280px;}
+.company_user,.company_pwd,.company_confirm,.company_contacts{width:325px;}
+.company_phone,.company_email{width:390px;}
+.company_info_source{width:250px;}
+.select_mode{position:relative;}
+.select_mode:after{content:''; width:0; height:0; border-style:solid solid none; border-width:8px 3px 0; border-color:#FFF transparent transparent; position:absolute; right:15px; top:16px; display:block;}
+
+.list{text-indent:20px; background:rgba(0,0,0,0.8) !important; filter:alpha(opacity=80); background:#000; position:absolute; left:0; z-index:10;}
+.input_box div:nth-of-type(2) .list{left:224px;}
+.list li{height:40px; line-height:40px; border-top:1px solid #2F3244; color:#FFF; cursor:pointer;}
+.list li:hover{background:rgba(0,0,0,1) !important; filter:alpha(opacity=100); background:#000;}
+.company_type + .list,.company_province + .list,.company_city + .list{width:214px;}
+.company_info_source + .list{width:290px; bottom:40px;}
+.company_business_license + .btn_style1{width:147px; height:40px; line-height:35px; margin:0 0 0 10px; font-size:14px;}
+.input_checkbox input[type=checkbox]{margin-left:20px;}
+.input_checkbox > *{display:inline-block; vertical-align:middle;}
+.input_checkbox label{cursor:pointer;}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+.main_border .part1 .con > ul{padding:10px 20px; border:1px solid #e6e6e6;}
+.main_border .part1 .con > ul li{height:25px; line-height:25px;}
+/* 个人支付 */
+.main_border .part .box-container ul{padding:0 9px;}
+.main_border .part .box-container li{float: left;margin: 10px 15px;border: 1px solid #ccc;position: relative;padding: 5px 0;}
+.main_border .part .box-container li.active{box-shadow: 0 0 5px rgba(0,0,0,.3);*border-color: #ff6600;}
+.main_border .part .box-container li:hover{box-shadow: 0 0 5px rgba(0,0,0,.3);*border-color: #ff6600;}
+.main_border .part .box-container li input{float: left;width: 13px;height: 13px;margin: 0;padding: 0;position: absolute;left: -20px;top: 13px;}
+.main_border .part .box-container li label{float: left;background-repeat: no-repeat;width: 160px;height: 30px;overflow: hidden;text-indent: -9999em;background-image: url("../img/pay_method.png");}
+/* 支付平台 */
+.main_border .part2 .online .box-container{padding: 10px 25px;border:1px solid #d9d9d9;overflow: hidden;margin-top: -1px;position:relative;}
+.main_border .part2 .online_1 label{background-position: 5px -600px;}
+.main_border .part2 .online_2 label{background-position: 5px -630px;}
+.main_border .part2 .online_3 label{background-position: 5px -829px;}
+/* 选择银行 */
+.main_border .part3 .tips_bank{line-height: 25px;height: 25px;}
+.main_border .part3 .tips_bank .text{float: left;color: #FF9D47;}
+.main_border .part3 .bank_1   label{background-position: 5px    0px;}
+.main_border .part3 .bank_2   label{background-position: 5px  -30px;}
+.main_border .part3 .bank_3   label{background-position: 5px  -60px;}
+.main_border .part3 .bank_4   label{background-position: 5px  -90px;}
+.main_border .part3 .bank_5   label{background-position: 5px -120px;}
+.main_border .part3 .bank_6   label{background-position: 5px -150px;}
+.main_border .part3 .bank_7   label{background-position: 5px -180px;}
+.main_border .part3 .bank_8   label{background-position: 5px -210px;}
+.main_border .part3 .bank_9   label{background-position: 5px -240px;}
+.main_border .part3 .bank_10  label{background-position: 5px -270px;}
+.main_border .part3 .bank_11  label{background-position: 5px -300px;}
+.main_border .part3 .bank_12  label{background-position: 5px -330px;}
+.main_border .part3 .bank_13  label{background-position: 5px -360px;}
+.main_border .part3 .bank_14  label{background-position: 5px -390px;}
+.main_border .part3 .bank_15  label{background-position: 5px -420px;}
+.main_border .part3 .bank_16  label{background-position: 5px -450px;}
+.main_border .part3 .bank_17  label{background-position: 5px -480px;}
+.main_border .part3 .bank_18  label{background-position: 5px -510px;}
+.main_border .part3 .bank_19  label{background-position: 5px -540px;}
+.main_border .part3 .bank_20  label{background-position: 5px -570px;}
+.main_border .part3 .bank_21  label{background-position: 5px -669px;}
+.main_border .part3 .bank_22  label{background-position: 5px -708px;}
+.main_border .part3 .bank_23  label{background-position: 5px -748px;}
+.main_border .part3 .bank_24  label{background-position: 5px -788px;}
