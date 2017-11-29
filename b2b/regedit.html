@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>B2B 注册页面</title>
+<link type="text/css" rel="stylesheet" href="css/B2B_commom.css">
+<link type="text/css" rel="stylesheet" href="css/regedit.css">
+</head>
+<body>
+	<div class="head">
+    	<div class="head_con">
+        	<a class="L" href="login.html">游啊游旅行网欢迎您，请登录</a>
+            <span>客服电话：400-888-0116</span>
+            <a href="javascript:;">在线客服</a>
+        </div>
+    </div>
+	<div class="main">
+    	<i class="logo"><img src="img/B2B_logo_mj.png"></i>
+        <h1>爱嘉游分销平台注册</h1>
+        <form action="">
+        	<div class="input_box">
+            	<input type="text" id="company_name" class="input_style1 company_name" value="" placeholder="公司名称">
+            </div>
+            <div class="input_box select_count1">
+            	<input type="hidden" value="" id="company_type_sub">
+                <a class="input_style1 company_type select_mode" id="company_type" href="javascript:;">公司类型</a>
+                <ul class="list" style="display:none;">
+                    <li data-id="1">组团社</li>
+                    <li data-id="2">地接社</li>
+                    <li data-id="3">门市</li>
+                    <li data-id="4">综合</li>
+                    <li data-id="5">其他</li>
+                </ul>
+            </div>
+            <div class="input_box clearfix select_count2">
+                <input type="hidden" id="company_province_init" value='[{"provinceID":"1","name":"北京"},{"provinceID":"2","name":"上海"},{"provinceID":"3","name":"广东"}]'>
+                <input type="hidden" id="company_city_init" value='[{"provinceID":"1","cityID":"1","name":"北京"},{"provinceID":"2","cityID":"1","name":"上海"},{"provinceID":"3","cityID":"1","name":"广州"},{"provinceID":"3","cityID":"2","name":"湛江"}]'>
+            	<div class="L">
+                	<input type="hidden" value="" id="company_province_sub">
+                    <a class="input_style1 company_province select_mode" id="company_province" href="javascript:;">公司地址/选择省</a>
+                    <ul class="list" style="display:none;"></ul>
+                </div>
+                <div class="L" style="margin-left:10px;">
+                	<input type="hidden" value="" id="company_city_sub">
+                    <a class="input_style1 company_city select_mode" id="company_city" href="javascript:;">公司地址/选择市</a>
+					<ul class="list" style="display:none;"></ul>
+                </div>
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_address" class="input_style1 company_address" value="" placeholder="详细地址">
+            </div>
+            <div class="input_box clearfix">
+            	<input type="text" id="company_business_license" class="input_style1 company_business_license L" value="" placeholder="上传营业执照">
+                <a href="javascript:;" class="btn_style1 L">浏 览</a>
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_user" class="input_style1 company_user" value="" placeholder="用户名">
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_pwd" class="input_style1 company_pwd" value="" placeholder="密 码">
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_confirm" class="input_style1 company_confirm" value="" placeholder="确认密码">
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_contacts" class="input_style1 company_contacts" value="" placeholder="联系人">
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_phone" class="input_style1 company_phone" value="" placeholder="手 机">
+            </div>
+            <div class="input_box">
+            	<input type="text" id="company_email" class="input_style1 company_email" value="" placeholder="邮 箱">
+            </div>
+            <div class="input_box select_count1">
+            	<input type="hidden" value="" id="company_info_source_sub">
+                <a class="input_style1 company_info_source select_mode" id="company_info_source" href="javascript:;">信息来源</a>
+                <ul class="list" style="display:none;">
+                    <li data-id="1">企业推广</li>
+                    <li data-id="2">EDM</li>
+                    <li data-id="3">朋友介绍</li>
+                    <li data-id="4">微信</li>
+                    <li data-id="5">微博</li>
+                    <li data-id="6">其他</li>
+                </ul>
+            </div>
+            <div class="input_checkbox">
+            	<input id="checkbox" type="checkbox" checked>  <label for="checkbox">我已阅读  爱嘉游分销平台采购协议</label>
+            </div>
+            <input type="submit" id="submit" class="btn_style1" value="注 册">
+        </form>
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/regedit.js"></script>
+    <script>
+        $('#submit').click(function(e){
+            e.preventDefault();
+            window.location.href = 'login.html';
+        });
+    </script>
+    <!--<script>
+		var $provinceMapJson = <?php echo $provinceMapJson;?>;
+		var $provinceCityMapJson = <?php echo $provinceCityMapJson;?>;
+	</script>-->
+    
+    <!-- 浮层 -->
+    <div class="layer hide">
+    	<div class="layer_panel hide" layerID="tip_info">
+        	<i class="close_icon b2b_common_bg"></i>
+            <p>提示信息提示信息提示信息提示信息提示信息</p>
+        </div><!-- layer_panel 结束 -->
+        <div class="layer_panel hide" layerID="tip_img">
+        	<i class="close_icon b2b_common_bg"></i>
+            <div class="img_panel"><img src="img/b2b_position_img2.jpg"></div>
+        </div><!-- layer_panel 结束 -->
+    	<div class="layer_bg hide"></div>
+    </div><!-- layer 结束 -->
+</body>
+</html>

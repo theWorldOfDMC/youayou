@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>B2B 游客信息管理</title>
+<link type="text/css" rel="stylesheet" href="css/B2B_commom.css">
+<link type="text/css" rel="stylesheet" href="css/touristinfo_management.css" />
+<link type="text/css" rel="stylesheet" href="css/pagination.css" />
+</head>
+<body>
+	<div class="head_common_part1">
+    	<div class="_con">
+        	<a class="L" href="javascript:;">金正恩，您好，欢迎登录网络销售系统！　[退出系统]</a>
+            <a style="margin-right:10px;">当前积分为<span>3599</span>，账户余额为<span>￥12980</span></a>
+            <a href="javascript:;">您的专属销售经理为：任国忠【13910586768】</a>
+        </div>
+    </div>
+    <div class="head_common_part2">
+    	<div class="_con">
+        	<a class="_logo" href="javascript:;"><img src="img/B2B_logo_mj.png"></a>
+            <div class="_search">
+            	<form>
+                	<input type="text" id="search_head" class="search_head L" value="">
+                    <input type="submit" id="search_submit" class="search_submit btn_style1 L" value="搜 索">
+                </form>
+            </div>
+            <div class="_nav">
+                <a href="index.html" class="cur">首页</a>
+                <a href="country.html">泰国</a>
+                <a href="country.html">越南</a>
+                <a href="country.html">柬埔寨</a>
+            </div>
+        </div>
+    </div>
+    <div class="head_common_part3">
+    	<div class="_con">
+        	<i class="b2b_common_bg icon L"></i>
+        	<div class="news">
+            	<ul class="clearfix">
+                    <li class="stance">金正恩金正日上跑男，无数网友表示关注 5</li>
+                    <li class="cur">金正恩金正日上跑男，无数网友表示关注 1</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 2</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 3</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 4</li>
+                    <li>金正恩金正日上跑男，无数网友表示关注 5</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="main_common clearfix">
+    	<div class="L aside_common">
+            <dl class="_part1">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>产品信息</span>
+                </dt>
+                <dd><a href="product_info_local.html">当地产品</a></dd>
+            </dl>
+            <dl class="_part2">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>订单信息</span>
+                </dt>
+                <dd><a href="my_order.html">我的订单</a></dd>
+            </dl>
+            <dl class="_part3">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>统计信息</span>
+                </dt>
+                <dd><a href="purchase_report.html">采购报表</a></dd>
+                <dd><a href="financial_statements.html">财务报表</a></dd>
+            </dl>
+            <dl class="_part4">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>增值信息</span>
+                </dt>
+                <dd><a href="checkpoints.html">积分查询</a></dd>
+                <dd><a href="consumption_history.html">消费记录</a></dd>
+                <dd><a href="promotions.html">促销活动</a></dd>
+                <dd><a href="my_coupon.html">我的消费券</a></dd>
+                <dd><a href="my_discount.html">我的优惠券</a></dd>
+            </dl>
+            <dl class="_part5">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>个人信息</span>
+                </dt>
+                <dd><a href="my_info.html">我的信息</a></dd>
+                <dd><a href="my_account.html">我的账户</a></dd>
+                <dd><a href="my_refund.html">我的退款</a></dd>
+                <dd><a href="my_collect.html">我的收藏</a></dd>
+                <dd><a href="change_pwd.html">修改密码</a></dd>
+            </dl>
+            <dl class="_part6">
+                <dt>
+                    <i class="b2b_common_bg icon"></i>
+                    <span>系统设置</span>
+                </dt>
+                <dd><a href="user_management.html">用户管理</a></dd>
+                <dd><a href="company_info.html">企业信息</a></dd>
+                <dd class="cur"><a href="touristinfo_management.html">游客信息管理</a></dd>
+            </dl>
+        </div><!-- aside 结束 -->
+        <div class="L main">
+        	<a href="javascript:;"><img src="img/b2b_position_img.jpg"></a>
+            <div class="table_box">
+            	<div class="table_box_head clearfix">
+                	<div class="L tips"><a class="fontColorBlue" href="add_tourist.html">新增游客信息</a></div>
+                    <div id="pagination" class="pagination R"></div>
+                </div>
+                <div class="table_box_body">
+                	<table class="table_common1 zebra_lists" cellpadding="0" cellspacing="0" rules="none">
+                    	<colgroup>
+                            <col width="14%">
+                            <col width="14%">
+                            <col width="18%">
+                            <col width="20%">
+                            <col width="25%">
+                            <col width="15%">
+                        </colgroup>
+                    	<thead>
+                        	<tr>
+                                <th>序号</th>
+                                <th>姓名</th>
+                                <th>手机号</th>
+                                <th>生日</th>
+                                <th>证件号</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>金正恩</td>
+                                <td>15344887799</td>
+                                <td>2015-11-25</td>
+                                <td>13073358584579</td>
+                                <td>
+                                	<a class="fontColorBlue table_option" href="javascript:;">修改信息</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot></tfoot>
+                    </table>
+                </div>
+                <div class="table_box_foot clearfix">
+                    <div id="pagination" class="pagination R"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot_common">北京众信国际旅行社股份有限公司   © 2011-2015 联合旅游网络销售系统 v2.0 版</div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/b2b_common.js"></script>
+    <script src="js/jquery.pagination.js"></script>
+    <script src="js/table_zebra_lists.js"></script>
+	<script type="text/javascript">
+        function pageselectCallback(page_id, jq){
+            $('#Searchresult').text("Showing search results "+((page_id*10)+1)+"-"+((page_id*10)+10));
+        }
+        $(document).ready(function(){
+            // Create pagination element
+            $(".pagination").pagination(80, {
+                num_edge_entries: 2,
+                num_display_entries: 5,
+				link_to:['#','#','#','#','#','#','#','#'],
+                callback: pageselectCallback
+            });
+        });
+    </script>
+</body>
+</html>
